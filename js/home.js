@@ -11,7 +11,12 @@ document.getElementById('add-money-btn').addEventListener('click', function(even
     event.preventDefault();
     // S-2:  get money to be added to account;
     const addMoneyInput= document.getElementById('input-add-money').value;
-    
+
+    // get the pin number provider
+    const addPinInput = document.getElementById('input-pin-number').value;
+
+    console.log(addMoneyInput,addPinInput)
+
 
 
 })
